@@ -1,3 +1,43 @@
+### Research & Planning Log
+#### Wednesday, 09/14
+* 5pm-6pm: Research to decide if i want to use react in my project. Find more resources online for understanding React components.
+#### Friday, 09/16
+* 10am-12pm: Meet w/Jam to discuss website.
+#### Sunday, 09/18
+* 11am-11:20am: Set up initial project files for Studio Ten Fifteen.
+* 11:20-12pm: I only wanted to push my readme to github, but because a commit is made when using create-react-app, files that i didn't add to my commit were also pushed. Start with a fresh repository, and try only pushing readme by deleting previous commits.
+Compy being slow...
+git reset --soft HEAD~2  didn't work, didn't like the ~ .
+Ended up using rm -fr .git
+* 12-12:15pm : Read up on Capstone assignment.
+* 12:45-1:50 : Create capstone-proposal.md, and look into options for a shipping cost calculator.
+  
+  https://firebase.google.com/products/extensions/shipengine-calculate-rates
+
+* 1:50-3:45 : Research building an ECommerce application
+  
+  https://www.youtube.com/watch?v=377AQ0y6LPA
+
+### Monyay, 09/19
+* 12:15-12:55 : Update capstone proposal. Install:
+  
+  npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form
+
+https://commercejs.com/docs/sdk/concepts/
+
+### Friday, 09/23
+* 4:30-5:30 : I've decided to use Sanity instead of Commerce.js. Starting over, install dependencies and create new Github repo.
+   
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
