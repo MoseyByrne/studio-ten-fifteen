@@ -8,6 +8,7 @@ export default {
           name: 'image',
           title: 'Image',
           type: 'image',
+          imgurl: 'imgUrl',
           options: {
               hotspot: true,
           },

@@ -18,7 +18,7 @@ export default {
       type: 'string',
     },
     {
-      name; 'slug',
+      name: 'slug',
       title: 'slug',
       type: 'slug',
       options: {

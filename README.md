@@ -26,7 +26,13 @@ Ended up using rm -fr .git
 https://commercejs.com/docs/sdk/concepts/
 
 ### Friday, 09/23
-* 4:30-5:30 : I've decided to use Sanity instead of Commerce.js. Starting over, install dependencies and create new Github repo.
+* 4:30-5:30pm : I've decided to use Sanity instead of Commerce.js. Starting over, install dependencies and create new Github repo.
+* 5:30-6:30pm : commiting changes, but keeping track of time for myself.
+### Sat 09/24
+* 6:30-11:30am
+* 7:30-8:30pm
+### Sun 09/25
+* 9-11:30 : BUG! Error: Unable to resolve image URL from source (undefined). Checked for typos in schema. Tried reinstalling. npm install --save @sanity/image-url has upstream dependency conflicts. Tried: brew install vips, needed: xcode-select --install(got stuck) - Command Line Tools for Xcode 12.5(from Apple dev site). Installed vips, but didn't fix error.
    
 
 
