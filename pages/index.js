@@ -1,24 +1,36 @@
 import React from 'react'
+
+import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
 
-const Home = () => {
-  return (
-    <>
+const Home = ({ products, bannerData }) => (
+    <div>
       <HeroBanner />
-
+        {console.log(bannerData)}
       <div className='products-heading'>
         <h2>Fabric Favorites</h2>
         <p>Variety of fabrics</p>
       </div>
 
       <div className='products-container'>
-        {['Product 1 ', 'Product 2 '].map(
-          (product) => product)}
+        {products?.map((product) => product.name)}
       </div>
 
       <FooterBanner />
-    </>
-  )
+    </div>
+  );
+
+// getServerSideProps used in Next.js to fetch data from an API
+export const getServerSideProps = async () => { 
+  const query = '*[_type == "product"]'; // * means fetch all
+  const products = await client.fetch(query);
+
+  const bannerQuery = '*[_type == "banner"]';
+  const bannerData = await client.fetch(bannerQuery);
+
+  return {
+    props: { products, bannerData }
+  }
 }
 
 export default Home;
