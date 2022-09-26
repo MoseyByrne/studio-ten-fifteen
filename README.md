@@ -32,7 +32,10 @@ https://commercejs.com/docs/sdk/concepts/
 * 6:30-11:30am
 * 7:30-8:30pm
 ### Sun 09/25
-* 9-11:30 : BUG! Error: Unable to resolve image URL from source (undefined). Checked for typos in schema. Tried reinstalling. npm install --save @sanity/image-url has upstream dependency conflicts. Tried: brew install vips, needed: xcode-select --install(got stuck) - Command Line Tools for Xcode 12.5(from Apple dev site). Installed vips, but didn't fix error.
+* 9-11:30am : BUG! Error: Unable to resolve image URL from source (undefined). Checked for typos in schema. Tried reinstalling. npm install --save @sanity/image-url has upstream dependency conflicts. Tried: brew install vips, needed: xcode-select --install(got stuck) - Command Line Tools for Xcode 12.5(from Apple dev site). Installed vips, but didn't fix error.
+* 4-5pm : Researching Next.js. Started following tutorial 
+
+https://www.youtube.com/watch?v=Sklc_fQBmcs
    
 
 
