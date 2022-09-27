@@ -1,4 +1,8 @@
 ### Research & Planning Log
+#### Other repos with time commited:
+
+[Next.js Practice](https://github.com/MoseyByrne/next-js-practice)
+
 #### Wednesday, 09/14
 * 5pm-6pm: Research to decide if i want to use react in my project. Find more resources online for understanding React components.
 #### Friday, 09/16
@@ -18,20 +22,20 @@ Ended up using rm -fr .git
   
   https://www.youtube.com/watch?v=377AQ0y6LPA
 
-### Monyay, 09/19
+#### Monyay, 09/19
 * 12:15-12:55 : Update capstone proposal. Install:
   
   npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form
 
 https://commercejs.com/docs/sdk/concepts/
 
-### Friday, 09/23
+#### Friday, 09/23
 * 4:30-5:30pm : I've decided to use Sanity instead of Commerce.js. Starting over, install dependencies and create new Github repo.
 * 5:30-6:30pm : commiting changes, but keeping track of time for myself.
-### Sat 09/24
+#### Sat 09/24
 * 6:30-11:30am
 * 7:30-8:30pm
-### Sun 09/25
+#### Sun 09/25
 * 9-11:30am : BUG! Error: Unable to resolve image URL from source (undefined). Checked for typos in schema. Tried reinstalling. npm install --save @sanity/image-url has upstream dependency conflicts. Tried: brew install vips, needed: xcode-select --install(got stuck) - Command Line Tools for Xcode 12.5(from Apple dev site). Installed vips, but didn't fix error.
 * 4-5pm : Researching Next.js. Started following tutorial 
 
