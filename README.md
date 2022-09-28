@@ -44,7 +44,9 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 #### 09/26
 * noon-12:45
 #### 09/27
-* 4:45-
+* 4:45-7pm
+#### 09/28
+* 7-
    
 
 
@@ -57,7 +59,7 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 
 #### By Mo Byrne
 
-#### ECommerce site for a clothing company.
+#### ECommerce site for a clothing company
 
 ## Technologies Used
 
