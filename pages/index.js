@@ -3,21 +3,23 @@ import React from 'react'
 import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
 
-const Home = ({ products, bannerData }) => (
+const Home = ({ products, bannerData }) => {
+  return (
     <div>
-      <HeroBanner heroBanner={bannerData.length & bannerData[0]} />
+      <HeroBanner heroBanner={bannerData[0]} />
       <div className='products-heading'>
         <h2>Fabric Favorites</h2>
         <p>Variety of fabrics</p>
       </div>
 
       <div className='products-container'>
-        {products?.map((product) => product.name)}
+        {products && (products.map(product => <p key={product.name}>{product.name}</p>))}
       </div>
 
       <FooterBanner />
     </div>
   );
+}
 
 // getServerSideProps used in Next.js to fetch data from an API
 export const getServerSideProps = async () => { 
