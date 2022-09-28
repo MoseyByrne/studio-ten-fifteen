@@ -40,6 +40,11 @@ https://commercejs.com/docs/sdk/concepts/
 * 4-5pm : Researching Next.js. Started following tutorial 
 
 https://www.youtube.com/watch?v=Sklc_fQBmcs
+
+#### 09/26
+* noon-12:45
+#### 09/27
+* 4:45-
    
 
 
@@ -48,7 +53,37 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 
 
 
+# Studio Ten Fifteen
 
+#### By Mo Byrne
+
+#### ECommerce site for a clothing company.
+
+## Technologies Used
+
+* React
+* Next.js
+* JavaScript
+* HTML
+* Sanity.io
+* Node.js
+* CSS
+* Stripe
+
+## Description
+
+This is a website for the clothing company Studio Ten Fifteen, based out of Eureka California. Sanity is used for backend, and Stripe for payments. 
+
+## Known Bugs
+
+* _Any known issues_
+* _should go here_
+
+## License
+
+_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+
+Copyright (c) _date_ Mo Byrne
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
