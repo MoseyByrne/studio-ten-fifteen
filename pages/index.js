@@ -12,9 +12,10 @@ const Home = ({ products, bannerData }) => {
         <p>Variety of fabrics</p>
       </div>
 
-      <div className='products-container'>
-        {products && (products.map(product => <p key={product.name}>{product.name}</p>))}
-      </div>
+      <div className="products-container">
+      {products && (products.map(product => <Product key={product.id} product={product} />))}
+    </div>
+
 
       <FooterBanner />
     </div>
