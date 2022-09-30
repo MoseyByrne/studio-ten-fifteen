@@ -1,19 +1,20 @@
 import React from 'react';
 import Head from 'next/head';
-import NavBar from './NavBar';
+
+import Navbar from './Navbar';
 import Footer from './Footer';
 
-const Layout = ({ childern }) => {
+const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
         <title>Studio Ten Fifteen</title>
       </Head>
       <header>
-        <NavBar />
+        <Navbar />
       </header>
       <main className="main-container">
-        {childern}
+        {children}
       </main>
       <footer>
         <Footer />
