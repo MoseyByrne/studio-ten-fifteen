@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { AiOutlineMinus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 import { client, urlFor } from '../../lib/client';
 
@@ -12,6 +13,22 @@ const ProductDetails = ({ product, products }) => {
         <div>
           <div className="image-container">
             <img src={urlFor(image && image[0])} />
+          </div>
+          {/* <div
+          className="small-image-container">
+            {image?.map((item, i) => (
+              <img 
+              src={urlFor(item)}
+              className=""
+              onMouseEnter=""
+              />
+            ))}
+          </div> */}
+        </div>
+        <div className="product-details-desc">
+          <h1>{name}</h1>
+          <div className="reviews">
+            <div></div>
           </div>
         </div>
       </div>
