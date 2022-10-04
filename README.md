@@ -45,8 +45,8 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 * noon-12:45
 #### 09/27
 * 4:45-7pm
-#### 09/28
-* 7-
+#### 10/04
+* 9-10 Research to get some ideas for styling
    
 
 
