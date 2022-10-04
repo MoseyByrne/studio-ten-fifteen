@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import Link from 'next/link';
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
@@ -12,7 +12,8 @@ const Cart = () => {
   const { totalPrice, totalQuantities, cartItems, setShowCart } = useStateContext();
 
   return (
-    <div className='cart-container' ref={cartRef}>
+   <div className='cart-wrapper' ref={cartRef}>
+     <div className='cart-container'>
       <button 
       type="button"
       className='cart-heading'
@@ -22,6 +23,7 @@ const Cart = () => {
         <span className='cart-num-items'>({totalQuantities} items)</span>
       </button>
     </div>
+   </div>
   )
 }
 
