@@ -48,6 +48,8 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 #### 10/04
 * 9-10am : Research to get some ideas for styling
 * 4-5pm : set up Stripe account
+#### 10/05
+* 7:40-8:30 : Research to see if there is a way to set up shipping calculation with Stripe. Small amounts of panic.
    
 
 
