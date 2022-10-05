@@ -46,7 +46,8 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 #### 09/27
 * 4:45-7pm
 #### 10/04
-* 9-10 Research to get some ideas for styling
+* 9-10am : Research to get some ideas for styling
+* 4-5pm : set up Stripe account
    
 
 
