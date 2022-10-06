@@ -50,6 +50,8 @@ https://www.youtube.com/watch?v=Sklc_fQBmcs
 * 4-5pm : set up Stripe account
 #### 10/05
 * 7:40-8:30 : Research to see if there is a way to set up shipping calculation with Stripe. Small amounts of panic.
+#### 10/06
+* 7:45-8:50 : Add more products on Sanity
    
 
 
